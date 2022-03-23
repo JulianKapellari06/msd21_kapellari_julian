@@ -31,6 +31,10 @@ To close the software press **9**.
 
 ***Kapellari Julian***
 
+[GitHub](https://github.com/JulianKapellari06)
+
+[FH](https://www.fh-joanneum.at/)
+
 ## License
 
 **Free Software, Hell YEAH!**
