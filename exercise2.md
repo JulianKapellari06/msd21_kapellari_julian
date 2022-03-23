@@ -1,37 +1,43 @@
 # Exercise 2
 
-## git config
+## Documentation
 
-Use this command to change or get your user data (email, name)
+k
 
-## git init
+## Commands
 
-Creates new git repository. Same happens with git clone (url).  
+1. **git config**
 
-## git commit
+   Use this command to change or get your user data (email, name)
 
-All staged files will be moved in the git repository as a new version
+2. **git init**
+  
+   Creates new git repository. Same happens with git clone (url).  
 
-## git status
+3. **git commit**
 
-Shows all files which are ready for the next commit
+   All staged files will be moved in the git repository as a new version
 
-## git add
+4. **git status**
 
-Moves changes from the working directory to the staging area.
+   Shows all files which are ready for the next commit
 
-## git log
+5. **git add**
 
-After a commit git log prints the informations of the last commit and working directory.
+   Moves changes from the working directory to the staging area.
 
-## git diff
+6. **git log**
 
-With this command you can see the differences between the commit and the working directory.
+   After a commit git log prints the informations of the last commit and working directory.
 
-## git pull
+7. **git diff**
 
-Gets the actual version from the server
+   With this command you can see the differences between the commit and the working directory.
 
-## git push
+8. **git pull**
 
-Sends the repository to the server
+   Gets the actual version from the server
+
+9. **git push**
+
+   Sends the repository to the server
