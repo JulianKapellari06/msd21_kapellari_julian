@@ -2,7 +2,12 @@
 
 ## Documentation
 
-k
+I used git clone just once because i only work with one repository.
+Commands which are used more than once are git add, git stage, git commit, git push.
+
+Order: GIT ADD/STAGE --> (doing the same thing) adding edited files from working directory to the staging area / GIT COMMIT --> commit the new version / GIT PUSH --> loading the new version on the server
+
+I used the parameter -m at git commit command to add a message to the commit. That was the only time i used a parameter except of the config commands.
 
 ## Commands
 
