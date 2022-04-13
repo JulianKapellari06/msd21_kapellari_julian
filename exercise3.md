@@ -4,9 +4,14 @@ Der Zielordner ist der Standard-Ausgabeordner von Maven. Wenn ein Projekt gebaut
 
 ![target Ordner](autoCreated.PNG)
 
-## Compile Befehl
+## Compile
 
 ![Compile Maven](mvnCompile.PNG)
+![Compile Java](java_compile.PNG)
+
+## Run
+
+![Run Program](java_run.PNG)
 
 ## mvn Clean
 
