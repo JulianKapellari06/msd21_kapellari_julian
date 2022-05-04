@@ -13,8 +13,22 @@ public class Calculator {
         return number1 * number2;
     }
 
-    public double divide(double number1, double number2) {
+    public double divide(double number1, double number2) throws ArithmeticException{
+        if(number2 == 0){
+            throw new ArithmeticException();
+        }
         return number1 / number2;
     }
+
+   // public int faculty(int number) {
+
+       /* if (number == 1) {
+            return 1;
+        } else {
+            return number * faculty(number - 1);
+        }*/
+  //      return 0;
+
+    //}
 
 }

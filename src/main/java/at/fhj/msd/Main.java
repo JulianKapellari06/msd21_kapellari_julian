@@ -12,7 +12,7 @@ public class Main {
         System.out.println(calculator.minus(a, b));
         System.out.println(calculator.multiply(a, b));
         System.out.println(calculator.divide(a, b));
-
+        //System.out.println(calculator.faculty(3));
 
     }
 

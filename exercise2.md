@@ -47,4 +47,4 @@ I used the parameter -m at git commit command to add a message to the commit. Th
 
    Sends the repository to the server
 
-[Home](README-Kapellari-Julian.md)
+[Home](README.md)
