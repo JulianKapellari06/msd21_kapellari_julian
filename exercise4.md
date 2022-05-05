@@ -14,4 +14,8 @@ Every method is tested twice, except of the divide method. This one is tested th
 
 ![mvn Clean](resources/images/ex4_3.PNG)
 
+## Result mvn Test
+
+![mvn Clean](resources/images/ex4_result.PNG)
+
 [Home](README.md)
