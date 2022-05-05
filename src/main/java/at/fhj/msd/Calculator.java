@@ -20,15 +20,19 @@ public class Calculator {
         return number1 / number2;
     }
 
-   // public int faculty(int number) {
+    public int faculty(int number) {
+
 
        /* if (number == 1) {
             return 1;
-        } else {
+        }else if(number < 0){
+            return 0;
+        }
+        else {
             return number * faculty(number - 1);
         }*/
-  //      return 0;
+        return 0;
 
-    //}
+    }
 
 }

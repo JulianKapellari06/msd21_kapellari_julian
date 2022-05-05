@@ -76,7 +76,7 @@ public class TestCalculator {
 
         assertThrows(ArithmeticException.class,()-> calculator.divide(2,0));
     }
-   /* @Test
+    @Test
     void testFacultySimple() {
 
         Assertions.assertEquals(120, calculator.faculty(5));
@@ -88,7 +88,16 @@ public class TestCalculator {
 
         Assertions.assertEquals(362880, calculator.faculty(9));
 
-    }*/
+    }
+
+     @Test
+    void testNegativeFaculty() {
+
+        Assertions.assertEquals(0, calculator.faculty(-2));
+
+    }
+
+
 
 
 
