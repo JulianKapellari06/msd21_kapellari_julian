@@ -1,18 +1,23 @@
 package at.fhj.msd;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Main {
+
+    private static Logger logger = LogManager.getLogger();
 
     public static void main(String[] args) {
 
-        Calculator calculator = new Calculator();
+        logger.error("It is an error logger.");
 
-        double a = 10, b = 2.3;
+        //Isn't printed on the console!
+        logger.info("It is a info logger.");
 
-        System.out.println(calculator.add(a, b));
-        System.out.println(calculator.minus(a, b));
-        System.out.println(calculator.multiply(a, b));
-        System.out.println(calculator.divide(a, b));
-        //System.out.println(calculator.faculty(3));
+        // logger.debug("It is a debug logger.");
+        // logger.fatal("It is a fatal logger.");
+        // logger.trace("It is a trace logger.");
+        // logger.warn("It is a warn logger.");
 
     }
 
