@@ -48,3 +48,7 @@ To close the software press **9**.
 [Exercise 3](exercise3.md)
 
 [Exercise 4](exercise4.md)
+
+Please change to your settings!
+
+[log4js.xml.template](src/main/resources/log4j2.xml.template)

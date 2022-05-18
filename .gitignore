@@ -4,3 +4,4 @@
 target/
 build/
 *.log
+log4js.xml
