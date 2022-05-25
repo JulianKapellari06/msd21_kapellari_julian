@@ -5,8 +5,15 @@ import org.apache.logging.log4j.Logger;
 
 public class Main {
 
+    /**
+     * Creates the logs.
+     */
     private static Logger logger = LogManager.getLogger();
 
+    /**
+     * @Author Kapellari Julian
+     * Runs the application
+     */
     public static void main(String[] args) {
 
         logger.error("It is an error logger.");
