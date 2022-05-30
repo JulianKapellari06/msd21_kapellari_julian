@@ -2,23 +2,19 @@ package at.fhj.msd;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.core.LoggerContext;
-
-import java.io.File;
 
 /**
- * @Author Kapellari Julian
- * This class can be used for simple math
+ * @author Kapellari Julian
  */
 public class Calculator {
 
     /**
-     * This object creates logs.
+     * For the printing of logs into the log file.
      */
     private static Logger logger = LogManager.getLogger();
 
     /**
-     * This methods adds two numbers
+     * Adds two numbers
      * @param number1
      * @param number2
      * @return sum of number1 and number2
@@ -29,7 +25,7 @@ public class Calculator {
     }
 
     /**
-     * This method subtract two numbers
+     * Subtracts two numbers
      * @param number1
      * @param number2
      * @return difference between number1 and number2
@@ -40,7 +36,7 @@ public class Calculator {
     }
 
     /**
-     * This method multiply two numbers
+     * Multiplies two numbers
      * @param number1
      * @param number2
      * @return product of number1 and number2
@@ -51,7 +47,7 @@ public class Calculator {
     }
 
     /**
-     * This method divides two numbers and throws an error if the second number is zero
+     * Divides two numbers and throws an error if the second number is zero
      * @param number1
      * @param number2
      * @return quotient of number1 and number2
@@ -67,7 +63,7 @@ public class Calculator {
     }
 
     /**
-     * This method calculates the faculty of a number
+     * Calculates the faculty of a number
      * @param number
      * @return faculty of number
      */
